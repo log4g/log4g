@@ -1,0 +1,13 @@
+<seelogs>
+
+    <seelog category="debug" minlevel="info">
+        <outputs formatid="main">
+            <console />
+            <file path="log.log"/>
+        </outputs>
+        <formats>
+            <format id="main" format="%Date(2006-01-02 15:04:05.999)|%Lev|%RelFile:%Line > %Msg%n"/>
+        </formats>
+    </seelog>
+    <!--  -->
+</seelogs>
